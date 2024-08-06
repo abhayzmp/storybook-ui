@@ -16,7 +16,11 @@ export default defineConfig({
 
   // Useful for theme customization
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        ripple: { to: { transform: "scale(4)", opacity: 0 } },
+      },
+    },
   },
 
   conditions: {

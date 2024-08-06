@@ -5,22 +5,24 @@ const meta = {
   title: "Form/Button",
   component: Button,
   tags: ["autodocs"],
+  args: {
+    disabled: false,
+  },
 } satisfies Meta<typeof Button>;
 
 export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Solid: Story = {
+export const Primary: Story = {
   args: {
-    variant: "solid",
     children: "Button",
   },
 };
 
-export const Outline: Story = {
+export const Secondary: Story = {
   args: {
-    variant: "outline",
     children: "Button",
+    variant: "secondary",
   },
 };

@@ -26,7 +26,7 @@ export function withColorScheme(Story: StoryFn, context: StoryContext) {
           display: "flex",
           justifyContent: "center",
           padding: "2rem",
-          background: "var(--colors-gray-900)",
+          background: "#455a64",
           color: "white",
         }}
         data-theme="dark"
@@ -48,7 +48,7 @@ export function withColorScheme(Story: StoryFn, context: StoryContext) {
           display: "flex",
           justifyContent: "center",
           padding: "2rem",
-          background: "var(--colors-gray-900)",
+          background: "#455a64",
           color: "white",
         }}
         data-theme="dark"
